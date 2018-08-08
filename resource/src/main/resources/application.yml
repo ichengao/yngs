@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password:
+    url: jdbc:mysql://127.0.0.1:3306/yngs?characterEncoding=utf-8&SSL=false
+  jpa:
+    show-sql: true
+server:
+  servlet:
+    context-path: /yngs
